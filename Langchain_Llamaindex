@@ -1,0 +1,17 @@
+# LangChain & LlamaIndex
+
+Notebook: [Langchain_llamaindex.ipynb](Langchain_llamaindex.ipynb)
+
+## What I built
+- **LangChain chain** – prompt template → Gemini → text (a property listing writer)
+- **LangChain agent** – an agent with a rental yield calculator tool
+- **LlamaIndex RAG** – asked questions about a lease in a few lines of code
+
+## By hand vs framework
+| | By hand (my Lease Reader) | LlamaIndex |
+|---|---|---|
+| Code | ~50 lines | ~5 lines |
+| Control | Full | Less |
+
+## Key learning
+Frameworks are faster for prototypes; plain code gives more control. Because I built RAG and agents by hand first, I understand what the frameworks do underneath.
