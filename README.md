@@ -1,18 +1,28 @@
-# LLM-practice
-My AI engineering learning: pandas, machine learning and LLMs
-# LLM Practice – Gemini API
+# 🤖 AI Engineering Practice
 
-Learning to use AI (Google Gemini) from Python.
+My hands-on learning journey to becoming an AI Engineer, from LLM basics to APIs, deep learning and computer vision. All notebooks run in Google Colab.
 
-## Notebook
-[LLM_practice.ipynb](LLM_practice.ipynb)
+## 📓 Notebooks
 
-## What's covered
-- Connecting to the Gemini API with a secure API key (Colab Secrets)
-- Sending questions to the AI from Python
-- Building prompts from data with f-strings
-- Generating property listings for many properties with a loop
-- System instructions to control the AI's role and style
+| Notebook | What I learned |
+|---|---|
+| `LLM_practice.ipynb` | Gemini API, prompt engineering, structured output (JSON + Pydantic), embeddings, ChromaDB, RAG |
+| `Tool_calling_agent.ipynb` | Tool calling and AI agents with guardrails (step limits, human approval) |
+| `Langchain_llamaindex.ipynb` | LangChain (prompts, chains, agents) and LlamaIndex (RAG over documents) |
+| `evaluation_guardrails_ipynb.ipynb` | LLM-as-a-judge evaluation, input checks, PII masking, logging, prompt injection defence |
+| `FastAPI_practice.ipynb` | REST API with FastAPI: GET/POST endpoints, Pydantic validation, Swagger docs, Gemini behind an API |
+| `PyTorch_practice.ipynb` | PyTorch neural network from scratch, fine-tuning DistilBERT for property review sentiment, computer vision (CLIP room classification, DETR object detection) |
 
-## Tools
-Python, Google Gemini API, pandas, Google Colab
+## 🚀 Live projects
+
+- **Lease Reader:** upload a lease PDF, extract key details and ask questions (RAG). [Repo](https://github.com/fatemarampurawalaa-sudo/Lease_reader)
+- **Dubai Property Chatbot:** property search with text-to-SQL + policy answers, with security guardrails. [Live app](https://pchatbot-5hm4fuwnurvlr5u65pnvcf.streamlit.app) · [Repo](https://github.com/fatemarampurawalaa-sudo/p_chatbot)
+- **Real Estate AI Agents:** tool calling + text-to-SQL agents. [Repo](https://github.com/fatemarampurawalaa-sudo/AI_agent_tool_calling)
+
+## 🛠️ Skills
+
+Python · pandas · scikit-learn · XGBoost · Google Gemini API · RAG · ChromaDB · LangChain · LlamaIndex · Tool calling · Text-to-SQL · FastAPI · PyTorch · Hugging Face · Fine-tuning · Computer vision · Streamlit · Prompt security · LLM evaluation · Cost optimization
+
+## 🔒 Note
+
+API keys are stored in Colab Secrets / Streamlit secrets, never in code. All data is sample data.
